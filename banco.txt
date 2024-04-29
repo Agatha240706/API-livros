@@ -1,0 +1,16 @@
+CREATE TABLE LIVRO (
+ ID_LIVRO INT AUTO_INCREMENT PRIMARY KEY,
+ TITULO VARCHAR(100), 
+AUTOR VARCHAR(254),
+ ANO_PUBLICACAO INT
+ );
+ 
+ create table usuario (
+ id_usuario int primary key AUTO_INCREMENT,
+ email varchar(254),
+ senha varchar(100)
+ );
+ select * from livro;
+ 
+insert into usuario(id_usuario, email,senha)
+values(1, 'agatha@gmail', 'Agatha') ;
